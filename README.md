@@ -3,20 +3,20 @@ Diary App aadalah sebuah aplikasi sederhana yang dibuat dengan bahasa pemrograma
 
 ## Fitur-fitur pada Diary App
 
-- ** Tambah, Edit dan Hapus Diary:
+-  Tambah, Edit dan Hapus Diary:
   User dapat menambah, mengedit dan menghapus diary.
 
-- ** Pencarian Diary
+-  Pencarian Diary
   User dapat mencari diary dengan cara mengetikkan judul diary yang ingin dicari didalam kolom pencarian diary tersebut.
 
-- ** Riwayat Diary
+-  Riwayat Diary
   User dapat melihat riwayat diary yang telah dibuat.
 
-- ** Keluar
+-  Keluar
   Keluar dari aplikasi.
 
   ## Langkah-langkah dalam Menjalankan Diary App
-
+  
   1. Clone atau unduh repository ini.
   2. Buka aplikasi Android Studio.
   3. Jalankan aplikasi dengan memilih menu "Run".
