@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assignment2AzizahFathimatuzzahro" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.Assignment2AzizahFathimatuzzahro" parent="Base.Theme.Assignment2AzizahFathimatuzzahro" />
+</resources>
