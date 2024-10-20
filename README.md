@@ -12,6 +12,9 @@ Diary App aadalah sebuah aplikasi sederhana yang dibuat dengan bahasa pemrograma
 -  Riwayat Diary
   User dapat melihat riwayat diary yang telah dibuat.
 
+- Sorting Diary
+  User dapat melakukan sorting diary berdasarkan judul.
+
 -  Keluar
   Keluar dari aplikasi.
 
