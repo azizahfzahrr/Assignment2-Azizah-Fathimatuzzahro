@@ -1,10 +1,11 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.presentation
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.R
 import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

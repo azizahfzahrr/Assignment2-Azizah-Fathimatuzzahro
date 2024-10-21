@@ -1,4 +1,4 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.domain
 
 data class Diary(
     val id: Int = 0,

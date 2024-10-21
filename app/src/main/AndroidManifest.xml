@@ -15,22 +15,22 @@
         android:theme="@style/Theme.Assignment2AzizahFathimatuzzahro"
         tools:targetApi="31">
         <activity
-            android:name=".DetailDiary"
+            android:name=".presentation.DetailDiary"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".presentation.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".presentation.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupActivity"
+            android:name=".presentation.SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".ItemDiaryInputActivity"
+            android:name=".presentation.ItemDiaryInputActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".presentation.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
     </application>

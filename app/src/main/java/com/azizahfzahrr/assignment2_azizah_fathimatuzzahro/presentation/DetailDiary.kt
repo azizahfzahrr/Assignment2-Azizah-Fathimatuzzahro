@@ -1,9 +1,9 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.presentation
 
-import android.animation.ObjectAnimator
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.R
 import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.ActivityDetailDiaryBinding
 
 class DetailDiary : AppCompatActivity() {

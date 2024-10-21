@@ -1,4 +1,4 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.presentation
 
 import android.app.Activity
 import android.app.ActivityOptions
@@ -12,7 +12,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.R
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryDatabase
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryEntity
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryPreferenceDataStore
 import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.FragmentDiaryBinding
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.domain.ItemDiaryListener
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.launch
 
@@ -67,7 +72,10 @@ class DiaryFragment : Fragment(), ItemDiaryListener {
 
         binding.ivProfileDiary.setOnClickListener {
             val intent = Intent(requireActivity(), ProfileActivity::class.java)
-            val options = ActivityOptions.makeCustomAnimation(requireContext(), R.anim.fade_in, R.anim.fade_out)
+            val options = ActivityOptions.makeCustomAnimation(requireContext(),
+                R.anim.fade_in,
+                R.anim.fade_out
+            )
             startActivity(intent, options.toBundle())
         }
 
@@ -127,7 +135,10 @@ class DiaryFragment : Fragment(), ItemDiaryListener {
             putExtra("title", diary.title)
             putExtra("description", diary.description)
         }
-        val options = ActivityOptions.makeCustomAnimation(requireContext(), R.anim.slide_in_right, R.anim.slide_out_left)
+        val options = ActivityOptions.makeCustomAnimation(requireContext(),
+            R.anim.slide_in_right,
+            R.anim.slide_out_left
+        )
         startActivity(intent, options.toBundle())
     }
 
@@ -146,14 +157,14 @@ class DiaryFragment : Fragment(), ItemDiaryListener {
         dialog.show()
     }
 
-//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-//        super.onActivityResult(requestCode, resultCode, data)
-//        if (requestCode == REQUEST_CODE_ADD_DIARY && resultCode == Activity.RESULT_OK) {
-//            lifecycleScope.launch {
-//                readDiaries()
-//            }
-//        }
-//    }
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_CODE_ADD_DIARY && resultCode == Activity.RESULT_OK) {
+            lifecycleScope.launch {
+                readDiaries()
+            }
+        }
+    }
 
     override fun onResume() {
         super.onResume()

@@ -1,4 +1,4 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.presentation
 
 import android.app.Activity
 import android.app.DatePickerDialog
@@ -8,11 +8,9 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import androidx.recyclerview.widget.LinearLayoutManager
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryDatabase
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryEntity
 import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.ActivityItemDiaryInputBinding
-import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.EditDialogBinding
-import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.launch
 import java.util.Calendar
 

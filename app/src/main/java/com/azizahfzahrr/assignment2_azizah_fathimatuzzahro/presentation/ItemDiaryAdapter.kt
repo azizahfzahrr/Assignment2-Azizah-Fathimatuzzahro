@@ -1,9 +1,11 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.presentation
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryEntity
 import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.DiaryListItemBinding
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.domain.ItemDiaryListener
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

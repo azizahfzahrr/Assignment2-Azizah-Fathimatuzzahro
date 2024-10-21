@@ -1,4 +1,4 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data
 
 object DataStoreConstant {
     const val DATA_STORE_NAME = "diary_preferences"

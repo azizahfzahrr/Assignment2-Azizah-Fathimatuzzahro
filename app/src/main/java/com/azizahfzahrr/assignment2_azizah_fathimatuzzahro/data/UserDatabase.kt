@@ -1,4 +1,4 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data
 
 import android.content.Context
 import androidx.room.Database

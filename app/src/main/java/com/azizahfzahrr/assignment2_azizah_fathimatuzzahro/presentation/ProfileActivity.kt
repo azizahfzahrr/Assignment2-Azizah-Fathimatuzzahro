@@ -1,12 +1,12 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.presentation
 
 import android.os.Bundle
-import android.text.InputType
-import android.widget.EditText
 import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryPreferenceDataStore
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.UserDao
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.UserDatabase
 import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.ActivityProfileBinding
 import kotlinx.coroutines.launch
 

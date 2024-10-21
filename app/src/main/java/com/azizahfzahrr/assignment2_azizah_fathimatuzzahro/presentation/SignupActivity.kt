@@ -1,4 +1,4 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.presentation
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,9 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryPreferenceDataStore
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.UserDatabase
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.UserEntity
 import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.ActivitySignupBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

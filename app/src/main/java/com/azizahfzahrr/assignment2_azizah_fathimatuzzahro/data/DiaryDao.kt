@@ -1,9 +1,8 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
 
@@ -27,4 +26,5 @@ interface DiaryDAO {
 
     @Query("SELECT * FROM diary_entity ORDER BY title ASC")
     suspend fun getDiariesSortedByTitle(): List<DiaryEntity>
+
 }

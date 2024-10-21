@@ -1,4 +1,4 @@
-package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro
+package com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.presentation
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.FragmentDiaryBinding
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.DiaryPreferenceDataStore
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.UserDao
+import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.data.UserDatabase
 import com.azizahfzahrr.assignment2_azizah_fathimatuzzahro.databinding.FragmentSettingsBinding
 import kotlinx.coroutines.launch
 
