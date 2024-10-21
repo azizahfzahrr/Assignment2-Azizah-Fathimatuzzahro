@@ -24,7 +24,7 @@ Diary App aadalah sebuah aplikasi sederhana yang dibuat dengan bahasa pemrograma
   Keluar dari aplikasi.
 
   ## Langkah-langkah dalam Menjalankan Diary App
-  
+
   1. Clone atau unduh repository ini.
   2. Buka aplikasi Android Studio.
   3. Jalankan aplikasi dengan memilih menu "Run".
