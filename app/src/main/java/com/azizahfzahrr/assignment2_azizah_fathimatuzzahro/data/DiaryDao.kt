@@ -27,4 +27,6 @@ interface DiaryDAO {
     @Query("SELECT * FROM diary_entity ORDER BY title ASC")
     suspend fun getDiariesSortedByTitle(): List<DiaryEntity>
 
+    @Query("SELECT * FROM diary_entity WHERE id = :id")
+    suspend fun getDiaryById(id: Int): DiaryEntity?
 }

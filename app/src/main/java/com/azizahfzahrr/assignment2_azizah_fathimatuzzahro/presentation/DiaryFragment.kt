@@ -131,6 +131,7 @@ class DiaryFragment : Fragment(), ItemDiaryListener {
 
     override fun onEditClicked(diary: DiaryEntity) {
         val intent = Intent(requireActivity(), DetailDiary::class.java).apply {
+            putExtra("id", diary.id)
             putExtra("date", diary.date)
             putExtra("title", diary.title)
             putExtra("description", diary.description)
