@@ -4,18 +4,23 @@ Diary App aadalah sebuah aplikasi sederhana yang dibuat dengan bahasa pemrograma
 ## **Fitur-fitur pada Diary App**
 
 - **Tambah, Edit dan Hapus Diary**
+
   User dapat menambah, mengedit dan menghapus diary.
 
 - **Pencarian Diary**
+
   User dapat mencari diary dengan cara mengetikkan judul diary yang ingin dicari didalam kolom pencarian diary tersebut.
 
 - **Riwayat Diary**
+
   User dapat melihat riwayat diary yang telah dibuat.
 
 - **Sorting Diary**
-  User dapat melakukan sorting diary berdasarkan judul.
+
+   User dapat melakukan sorting diary berdasarkan judul.
 
 - **Keluar**
+
   Keluar dari aplikasi.
 
   ## Langkah-langkah dalam Menjalankan Diary App
